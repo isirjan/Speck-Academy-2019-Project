@@ -31,3 +31,17 @@ function reservation (id, reservedFrom, reservedUntill) {
     };
 };
 // reservation(1, "2019, 10, 10", "2018, 10, 22");
+
+function checkReservation (id) {
+    for (i =0; i < hallArray.length; i++ ) {
+        if (hallArray[i].id == id) {
+            reservedUntill = new Date(hallArray[i].reservation.reservedUntill);
+            currentTimestamp = new Date();
+            if (reservedUntill < currentTimestamp) {
+                hallArray[i].reservation.isReserved = false;
+                hallArray[i].reservation.reservedFrom = null;
+                hallArray[i].reservation.reservedUntill = null;                
+            };
+        };
+    };
+};
