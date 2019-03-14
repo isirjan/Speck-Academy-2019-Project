@@ -11,3 +11,13 @@ function add (Name) {
     // napraviti funkcionalnost za provjeru unesenih ID-a
     hallArray.push({id: id, name: Name, reservation: {isReserved: false, reservedFrom: null, reservedUntill: null}});
 };
+
+function remove (id) {
+    var pos = 0;
+    for (i =0; i < hallArray.length; i++ ) {
+        if (hallArray[i].id == id) {
+            pos = i;
+        };
+    };
+    hallArray.splice(pos, 1);
+};
