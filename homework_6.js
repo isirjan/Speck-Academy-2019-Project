@@ -21,3 +21,13 @@ function remove (id) {
     };
     hallArray.splice(pos, 1);
 };
+
+function reservation (id, reservedFrom, reservedUntill) {
+    for (i =0; i < hallArray.length; i++ ) {
+        if (hallArray[i].id == id) {
+            hallArray[i].reservation.reservedFrom = new Date(reservedFrom);
+            hallArray[i].reservation.reservedUntill = new Date(reservedUntill);
+        };
+    };
+};
+// reservation(1, "2019, 10, 10", "2018, 10, 22");
