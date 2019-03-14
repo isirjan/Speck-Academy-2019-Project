@@ -5,3 +5,9 @@ var hallArray = [
     {id:4, name: "Dvorana TIC (Turistički dom)", reservation: {isReserved: false, reservedFrom: null, reservedUntill: null}},
     {id:5, name: "Konferencijske dvorane RCTP (Razvojni centar i tehnološki park)", reservation: {isReserved: false, reservedFrom: null, reservedUntill: null}}
 ];
+
+function add (Name) {
+    var id = Math.round(Math.random()*100);
+    // napraviti funkcionalnost za provjeru unesenih ID-a
+    hallArray.push({id: id, name: Name, reservation: {isReserved: false, reservedFrom: null, reservedUntill: null}});
+};
