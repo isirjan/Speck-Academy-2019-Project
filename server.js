@@ -11,6 +11,14 @@ const hallArray = [
   {id:5, name: "Konferencijske dvorane RCTP (Razvojni centar i tehnološki park)", reservation: {isReserved: false, reservedFrom: null, reservedUntill: null}}
 ];
 
+const hallNames = [
+  "Velika sportska dvorana",
+  "Dvorana Hrvatskog doma",
+  "Dvorana Gradske knjižnice",
+  "Dvorana Gradske knjižnice",
+  "Konferencijske dvorane RCTP (Razvojni centar i tehnološki park)"
+]
+
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
