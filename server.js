@@ -19,6 +19,8 @@ const hallNames = [
   "Konferencijske dvorane RCTP (Razvojni centar i tehnološki park)"
 ]
 
+const hallNamesString = "Velika sportska dvorana, Dvorana Hrvatskog doma, Dvorana Gradske knjižnice, Dvorana Gradske knjižnice, Konferencijske dvorane RCTP (Razvojni centar i tehnološki park)"
+
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
