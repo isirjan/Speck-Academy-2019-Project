@@ -24,7 +24,7 @@ const hallNamesString = "Velika sportska dvorana, Dvorana Hrvatskog doma, Dvoran
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World\n');
+  res.end(hallNamesString);
 });
 
 server.listen(port, hostname, () => {
