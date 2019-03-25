@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/isirjan/Speck-Academy-2019-Project/issues"
   },
-  "homepage": "https://github.com/isirjan/Speck-Academy-2019-Project#readme"
+  "homepage": "https://github.com/isirjan/Speck-Academy-2019-Project#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "luxon": "^1.12.0"
+  }
 }
