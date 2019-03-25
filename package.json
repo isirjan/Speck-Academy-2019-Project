@@ -1,0 +1,22 @@
+{
+  "name": "homework-10",
+  "version": "1.0.0",
+  "description": "homework 10",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isirjan/Speck-Academy-2019-Project.git"
+  },
+  "keywords": [
+    "homework"
+  ],
+  "author": "isirjan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isirjan/Speck-Academy-2019-Project/issues"
+  },
+  "homepage": "https://github.com/isirjan/Speck-Academy-2019-Project#readme"
+}
