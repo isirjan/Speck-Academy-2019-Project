@@ -1,14 +1,14 @@
 const http = require('http');
 
-const lodash = require('lodash');
+const _ = require('lodash');
 
 const halls = require('./halls.js');
 
-const hallNamesArray = lodash.map(halls.hallArray, 'name');
+const hallNamesArray = _.map(halls.hallArray, 'name');
 
-const hallUniqueNamesArray = lodash.uniq(hallNamesArray);
+const hallUniqueNamesArray = _.uniq(hallNamesArray);
 
-const hallUniqueNamesString = lodash.join(hallUniqueNamesArray, ", ");
+const hallUniqueNamesString = _.join(hallUniqueNamesArray, ", ");
 
 const hostname = '127.0.0.1';
 const port = 3000;
