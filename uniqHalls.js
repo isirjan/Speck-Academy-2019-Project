@@ -6,7 +6,7 @@ const halls = require('./halls.js');
 
 const hallNamesArray = _.map(halls.hallArray, 'name');
 
-const hallUniqueNamesArray = _.uniq(hallNamesArray);
+const hallUniqueNamesArray = _.uniq(hallNamesArray); // uniqBy(halls.hallArray, 'name')
 
 const hallUniqueNamesString = _.join(hallUniqueNamesArray, ", ");
 
