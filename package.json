@@ -23,7 +23,6 @@
   "homepage": "https://github.com/isirjan/Speck-Academy-2019-Project#readme",
   "dependencies": {
     "lodash": "^4.17.11",
-    "luxon": "^1.12.0",
-    "pg": "^7.10.0"
+    "luxon": "^1.12.0"
   }
 }
